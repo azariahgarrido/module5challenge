@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assets/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <div class="container">
+      <!-- Timeblocks go here -->
+
+      <div id="divnine">
+        <p class="Nine" id="check1">09am</p>
+        <input type="text" id="input1"></input>
+        <button type="button" class="saveBtn" onclick="myfunction1()"><input class="img" type="image" src="Assets/lock-icon-2.png"></button>
+      </div>
+      <div id="divnine">
+        <p class="Ten" id="check2">10am</p>
+        <input type="text" id="input2"></input>
+        <button type="button" class="saveBtn" onclick="myfunction2()"><input class="img" type="image" src="Assets/lock-icon-2.png"></button>
+      </div>
+      <div id="divnine">
+        <p class="Eleven" id="check3">11am</p>
+        <input type="text" id="input3"></input>
+        <button type="button" class="saveBtn" onclick="myfunction3()"><input class="img" type="image" src="Assets/lock-icon-2.png"></button>
+      </div>
+      <div id="divnine">
+        <p class="Twelve" id="check4">12pm</p>
+        <input type="text" id="input4"></input>
+        <button type="button" class="saveBtn" onclick="myfunction4()"><input class="img" type="image" src="Assets/lock-icon-2.png"></button>
+      </div>
+      <div id="divnine">
+        <p class="One" id="check5">01pm</p>
+        <input type="text" id="input5"></input>
+        <button type="button" class="saveBtn" onclick="myfunction5()"><input class="img" type="image" src="Assets/lock-icon-2.png"></button>
+      </div>
+      <div id="divnine">
+        <p class="Two" id="check6">02pm</p>
+        <input type="text" id="input6"></input>
+        <button type="button" class="saveBtn" onclick="myfunction6()"><input class="img" type="image" src="Assets/lock-icon-2.png"></button>
+      </div>
+      <div id="divnine">
+        <p class="Three" id="check7">03pm</p>
+        <input type="text" id="input7"></input>
+        <button type="button" class="saveBtn" onclick="myfunction7()"><input class="img" type="image" src="Assets/lock-icon-2.png"></button>
+      </div>
+      <div id="divnine">
+        <p class="Four" id="check8">04pm</p>
+        <input type="text" id="input8"></input>
+        <button type="button" class="saveBtn" onclick="myfunction8()"><input class="img" type="image" src="Assets/lock-icon-2.png"></button>
+      </div>
+      <div id="divnine">
+        <p class="Five" id="check9">05pm</p>
+        <input type="text" id="input9"></input>
+        <button type="button" class="saveBtn" onclick="myfunction9()"><input class="img" type="image" src="Assets/lock-icon-2.png"></button>
+      </div>
+      
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/script.js"></script>
+
+  </body>
+
+</html>
